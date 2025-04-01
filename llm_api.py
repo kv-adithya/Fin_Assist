@@ -1,6 +1,6 @@
 import google.generativeai as genai
-
-genai.configure(api_key="AIzaSyBQnJkSx4p2f7y23W8YMroRFc_fGGm6ybg")
+import streamlit as st
+genai.configure(api_key=st.secrets["gemini"]["api_key"])
 
 model = genai.GenerativeModel("gemini-pro")
 
