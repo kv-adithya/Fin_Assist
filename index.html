@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h2 id="heading">Image Search App</h2>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for images...">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div id="imageContainer" class="image-grid"></div>
+        
+        <div class="loading">Loading more images...</div>
+    </div>
+
+    <!-- Modal for Fullscreen Image -->
+    <div id="imageModal" class="modal">
+        <span id="closeModal">&times;</span>
+        <img id="modalImg" class="modal-content">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
