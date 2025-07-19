@@ -24,11 +24,6 @@ A personal finance web application built using **Streamlit** and **Google's Gemi
 
 ---
 
-## Screenshots
-
-*(Include screenshots of different pages: Chat, Goal Planner, SIP Calculator, etc. if available)*
-
----
 
 ## Setup Instructions
 
